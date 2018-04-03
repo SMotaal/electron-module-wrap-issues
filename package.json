@@ -1,0 +1,21 @@
+{
+  "name": "@code-therapy/electron-module-wrap-issues",
+  "version": "1.0.0",
+  "author": "Saleh Abdel Motaal <saleh@grasppe.com>",
+  "dependencies": {
+    "electron": "2.0.0-beta.6"
+  },
+  "devDependencies": {
+    "@types/node": "*",
+    "@types/electron": "*",
+    "typescript-lit-html-plugin": "latest",
+    "typescript": "next"
+  },
+  "main": "main.js",
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "start": "electron ."
+  }
+}

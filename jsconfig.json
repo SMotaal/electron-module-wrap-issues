@@ -1,0 +1,27 @@
+{
+  "compilerOptions": {
+    "moduleResolution": "node",
+    "rootDir": ".",
+    "lib": [
+      "esnext",
+      "dom"
+    ],
+    "plugins": [
+      {
+        "name": "typescript-lit-html-plugin",
+        "format": {
+          "enabled": false
+        },
+        "tags": [
+          "html",
+          "template",
+          "xml",
+          "svg"
+        ]
+      }
+    ]
+  },
+  "files": [
+    "main.js"
+  ]
+}
